@@ -8,12 +8,14 @@ import React from 'react';
 import Comli from './Comli';
 import Ipl2 from './Ipl2';
 import Todocolor from './Todocolor'
+import Todolistrender from './Todolistrender';
 // import Todolist2 from './Todolist2';
 
 function App() {
   
   return (
    <div className="mybox">
+    {console.log("app component")}
     <h1>Welcome to edupoly</h1>
 
      <Counter></Counter>
@@ -30,7 +32,7 @@ function App() {
     <Todolistcolor name='Gold Bill' c='red'></Todolistcolor>
     <Todolistcolor name='Current Bill' c='green'></Todolistcolor> */}
     <Todocolor></Todocolor>
-
+    <Todolistrender></Todolistrender>
    </div>
   );
 }
